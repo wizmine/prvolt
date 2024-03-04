@@ -1,0 +1,35 @@
+.add {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-input {
+    margin: 6px;
+    width: 70%;
+    padding: 4px;
+    outline: none;
+    background: none;
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 10px;
+
+    &::placeholder {
+      font-weight: bold;
+      opacity: 0.5;
+    }
+  }
+
+  &-button {
+    margin: 6px;
+    width: 20%;
+    background: none;
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background: rgba(137, 43, 226, 0.3);
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.todo {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(137, 43, 226, 0.2);
+  border-radius: 5px;
+}
+
+.info {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin: 5px;
+  border: 0px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin-right: 4px;
+  padding: 5px;
+  background: rgba(137, 43, 226, 0);
+  border: 1px solid rgba(137, 43, 226, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background: rgba(137, 43, 226, 0.2);
+    border: 1px solid rgba(137, 43, 226, 0.5);
+  }
+
+  &-img {
+    width: 20px;
+  }
+}
+
+.edit {
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-input {
+    margin: 6px;
+    width: 70%;
+    padding: 4px;
+    outline: none;
+    background: none;
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 10px;
+
+    &::placeholder {
+      font-weight: bold;
+      opacity: 0.5;
+    }
+  }
+
+  &-button {
+    margin: 6px;
+    width: 20%;
+    background: none;
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background: rgba(137, 43, 226, 0.3);
+    }
+  }
+}

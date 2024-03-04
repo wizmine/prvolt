@@ -1,0 +1,14 @@
+.app {
+  &-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+input {
+  padding: 4px;
+  border: 1px solid rgba(137, 43, 226, 0.5);
+  color: blueviolet;
+}
